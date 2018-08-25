@@ -1,0 +1,21 @@
+.logo {
+	font-family: $font-family-main;
+	font-size: 20px;
+	font-weight: $font-weight-bold;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.logo__link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.logo--footer {
+	margin-bottom: 24px;
+}
+
+.logo__link--footer {
+	color: #323a45;
+}

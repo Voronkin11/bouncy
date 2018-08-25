@@ -1,0 +1,20 @@
+.heading {
+	text-transform: uppercase;
+	font-family: $font-family-heading;
+}
+
+.heading--one{
+	margin-bottom: 30px;
+	font-size: $font-size-h1;
+	letter-spacing: 0.2em;
+	line-height: 2;
+	color: $color-main;
+}
+
+.heading--two {
+	margin-bottom: 40px;
+	font-size: $font-size-h2;
+	letter-spacing: 0.2em;
+	line-height: 0.6;
+	color: $color-h2;
+}

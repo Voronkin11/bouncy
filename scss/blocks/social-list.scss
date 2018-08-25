@@ -1,0 +1,16 @@
+.social-list {
+	box-sizing: border-box;
+	display: flex;
+	list-style: none;
+}
+
+.social-list__item {
+	width: 26px;
+	height: 26px;
+	margin: 0 5px;
+		&:hover {
+			border-radius: 50%;
+			box-shadow: 0 0 2px 2px #ffffff,
+			0 0 4px 4px #00ffff;
+		}
+}

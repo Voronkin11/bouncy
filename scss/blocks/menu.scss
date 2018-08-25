@@ -1,0 +1,23 @@
+.menu {
+	box-sizing: border-box;
+	display: flex;
+	list-style: none;
+	font-family: $font-family-main;
+	font-size: $font-size-main;
+	font-weight: $font-weight-regular;
+	line-height: 0.75;
+}
+
+.menu__link {
+	display: flex;
+	padding: 8px 20px;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid none;
+	border-radius: 15px;
+	text-decoration: none;
+	color: #ffffff;
+		&:hover {
+			box-shadow: 0 0 0 1px #ffffff;
+		}
+}

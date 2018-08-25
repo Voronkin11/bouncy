@@ -1,0 +1,41 @@
+.to-contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 60px 0;
+	background-image: url('../img/to-contact_bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.to-contact__text {
+	margin-bottom: 29px;
+	font-family: $font-family-main;
+	font-size: 20px;
+	font-weight: $font-weight-regular;;
+	letter-spacing: 0.04em;
+	line-height: 1.25;
+	color: $color-main;
+	text-align: center;
+}
+
+.to-contact__btn {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 140px;
+	height: 37px;
+	border: 1px solid #ffffff;
+	border-radius: 15px;
+	font-family: $font-family-main;
+	font-size: 16px;
+	font-weight: $font-weight-regular;
+	letter-spacing: 0.04em;
+	line-height: 0.75;	
+	color: $color-main;
+	text-decoration: none;
+		&:hover {
+			background-color: #19bd9a;
+		}
+}

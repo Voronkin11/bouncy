@@ -1,0 +1,28 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 77px;
+	background-image: url('../img/header_bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header__navigation {
+	display: flex;
+	justify-content: space-between;
+	width: 1170px;
+	margin-bottom: 220px;
+}
+
+.header__slogan {
+	width: 605px;
+	margin-bottom: 220px;
+	font-family: $font-family-main;
+	font-size: $font-size-main;
+	letter-spacing: 0.05em;
+	line-height: 1.75;
+	color: $color-main;
+	text-align: center;
+}
