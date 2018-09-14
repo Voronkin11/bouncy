@@ -1,9 +1,13 @@
+*{
+	box-sizing: border-box;
+}
 body {
 	min-width: 1170px;
 	scroll-behavior: smooth;
 }
 
 img {
+	display: block;
 	width: 100%;
 	height: auto;
 }
