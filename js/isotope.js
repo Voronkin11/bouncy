@@ -1,7 +1,7 @@
 (function(){
 	'use strict'
-    var $container = $('.grid').isotope({
-		itemSelector: '.grid__item',
+    var $container = $('.gallery').isotope({
+		itemSelector: '.gallery__item',
 		masonry: {
 			columnWidth: 270,
 			gutter: 10,
@@ -9,14 +9,14 @@
 		}
 	});
 
-	$('.button').click(function(){
+	$('.filters__button').click(function(){
 		var $this = $(this);
-		if ( !$this.hasClass('is-checked') ) {
-			$this.parents('.filters-button-group').find('.is-checked').removeClass('is-checked');
-			$this.addClass('is-checked');
+		if ( !$this.hasClass('filters__button--checked') ) {
+			$this.parents('.filters').find('.filters__button--checked').removeClass('filters__button--checked');
+			$this.addClass('filters__button--checked');
 		}
 	var selector = $this.attr('data-filter');
-		$container.isotope({  itemSelector: '.grid__item', filter: selector });
+		$container.isotope({  itemSelector: '.gallery__item', filter: selector });
 		return false;
 	});
 })();
